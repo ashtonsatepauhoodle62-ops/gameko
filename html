@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Play Roblox</title>
+  <style>
+    body {
+      background: #111;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 150px;
+    }
+
+    h1 {
+      font-size: 50px;
+    }
+
+    button {
+      background: #e2231a;
+      color: white;
+      border: none;
+      padding: 20px 45px;
+      font-size: 25px;
+      border-radius: 12px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #ff3b30;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>🎮 Roblox</h1>
+  <p>Click the button to launch Roblox.</p>
+
+  <button onclick="playRoblox()">PLAY ROBLOX</button>
+
+  <script>
+    function playRoblox() {
+      window.location.href = "roblox://";
+    }
+  </script>
+
+</body>
+</html>
